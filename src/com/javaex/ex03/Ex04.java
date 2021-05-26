@@ -11,9 +11,9 @@ public class Ex04 {
 		System.out.print("근무시간: ");
 		int hour = sc.nextInt();
 		int a = 10000;
-		int b = 2000;
+		int b = 12000;
 		
-		int add = (( a * hour ) + b );
+		int add = 8*10000 + (hour-8)*12000;
 		
 		if(hour <= 8) {
 			System.out.println("임금은" + (a * hour) + " 원 입니다.");

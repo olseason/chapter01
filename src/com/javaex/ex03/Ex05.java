@@ -12,8 +12,7 @@ public class Ex05 {
 		int hour = sc.nextInt();
 		
 		int a = 10000;
-		int b = 5000;
-		int add = (( a * hour ) + b );
+		int add = 8 * 10000 + (hour - 8) * ((int)(10000 * 1.5)); // 1.5 -> 실수를 정수로 형변환
 		
 		
 		if (hour <=8 ) {
